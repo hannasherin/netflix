@@ -1,0 +1,331 @@
+
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    overflow-x:hidden ;
+    
+}
+
+.root{
+    background-size: cover;
+    background-color: gray;
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("../asset//IN-en-20220329-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar{
+padding-top: 1%;    
+padding-left: 2vw;
+padding-right: 4vw;
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.img-logo{
+    width: 13%;
+    color: #e50914;
+}
+.btn-sign-in{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: inline-block;
+    display: inline-block;
+
+
+}
+.main-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-titles-container{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.main-title{
+   font-size: 3.2em;
+   margin-bottom: 14px;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.main-call-to-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+.main-email-container{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-email-container-input{
+outline: none;
+border: none;
+padding: 20px 10px;
+font-size: 1em;
+}
+.btn-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.btn-get-started:hover{
+background-color: #ff0b18;
+}
+.horizontal-line {
+    width: 100vw;
+    height: 5px;
+    background: #222
+}
+.snd-div{
+    width: 100vw;
+    height: 55vh;
+    background-color: black;
+}
+
+
+.title-1{
+    color: white;
+   font-size: 40px;
+   padding-left: 100px;
+   
+
+}
+.para-1{
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    padding-left: 65px;
+}
+.horizontal-line2 {
+    width: 100vw;
+    height: 5px;
+    background: #222
+}
+.snd-div2{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+.title-2{
+    color: white;
+   font-size: 40px;
+   padding-right:320px;
+ padding-top: 10%;
+}
+.para-2{
+    color: white;
+    font-size: 25px;
+    padding-right:30px;
+   
+}
+.horizontal-line3{
+    width: 100vw;
+    height: 5px;
+    background: #222
+}
+.snd-div3{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+.title-3{
+    color: white;
+   font-size: 40px;
+   padding-left: 300px;
+   padding-top: 60px;
+
+}
+.para-3{
+    color: white;
+    font-size: 25px;
+    padding-left: 300px;
+}
+.horizontal-line4{
+    width: 100vw;
+    height: 5px;
+    background: #222
+}
+.snd-div4{
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+}
+
+.horizontal-line5{
+    width: 100vw;
+    height: 5px;
+    background: #222
+}
+.snd-div5{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+}
+.title {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.vid-ft{
+    position: absolute;
+    top: 70px;
+    left: 900px;
+    width: 300px;
+    height: 200px;
+}
+.ft-img{
+    position: absolute;
+    top: 70px;
+    left: 850px;
+    width: 350px;
+    height:250px ;
+   
+}
+.title-details{
+    padding-left: 6%;
+    padding-top: 6%;
+}
+.title-video{
+    padding-top: 5%;
+}
+.subtitle{
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.img-chill{
+    width: 20em;
+    height: 20em;
+    padding-left: 100px;
+}
+.frequent{
+    padding: 70px 180px;
+}
+.frequent h1{
+    text-align: center;
+    font-size: 47px;
+    margin-bottom: 50px;
+    color: white;
+}
+.frequent .questions button{
+    width: 100%;
+    text-align: left;
+    padding: 16px 44px 16px 24px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+    background: #303030;
+    outline: none;
+    border: none;
+    color: #fff;
+
+}
+.frequent .questions button span{
+    float: right;
+    font-size: 40px;
+    cursor: pointer;
+}
+.heading{
+    color: white;
+    font-size:1.3em;
+}
+.call{
+    color: white;
+}
+.footer{
+    max-width: 85%;
+    margin: 70px auto;
+}
+.footer .footer a{
+    color: #303030;
+    letter-spacing: 0.03em;
+}
+.footer-cols{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 4rem;
+    
+
+}
+.footer p{
+    margin-bottom: 2rem;
+
+}
+.footer li{
+    line-height: 1.9;
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #303030;
+}
+.color-li{
+    color: #888;
+}
+
+a:visited {
+    color: white;
+}
+.last{
+    margin-top:40px ;
+
+}
+.last a{
+    padding: 15px 10px;
+    border: 1px solid white;
+}
+.last p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+}
+.btn-icon{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.title-video2{
+    padding-top: 600px;
+}
+.vid2-ft{
+    position: absolute;
+    top: 1400px;
+    left: 915px;
+    width: 250px;
+    height: 200px;
+}
+.ft-img2{
+    position: absolute;
+    top: 1400px;
+    left: 850px;
+    width: 400px;
+    height:300px ;
+   
+}
